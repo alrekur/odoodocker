@@ -1,0 +1,4 @@
+﻿FROM odoo:12.0
+MAINTAINER alrekur
+
+RUN pip3 install xlrd
